@@ -10,7 +10,7 @@
 
 1. Склонируйте репозиторий:
    ```bash
-   git clone [https://github.com/username/repository.git](https://github.com/RollingInDeepLearning/SMF_cartoon_classification.git)
+   git clone https://github.com/RollingInDeepLearning/SMF_cartoon_classification.git
    cd dir
 2. Установите зависимости из файла requirements.txt:
 ```bash
@@ -33,6 +33,8 @@ python main.py "ваша ссылка на ролик"
 streamlit run app.py
 ```
 Локально по адресу http://localhost:8501/ можно протестировать работу модели.
+
+![](screenshot.png)
 
 Примечания
 Убедитесь, что у вас установлен Chrome и драйвер ChromeDriver для работы с Selenium.
