@@ -99,7 +99,7 @@ def classify_data(model, vectorizer, text):
     return prediction, probabilities
 
 # Основная часть приложения
-st.title("Классификация видео по YouTube")
+st.title("Классификация мультфильмов по ссылке YouTube")
 
 model_link = "https://huggingface.co/Rollingindeeplearning/rf_cartoon_classificator/resolve/main/best_model.joblib"
 vectorizer_path = 'vectorizer.joblib'
